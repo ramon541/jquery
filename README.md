@@ -46,12 +46,14 @@ apresentará os principais itens do menu. Um item da lista pode ter uma sub list
 mais específicas. Você deverá programar para que quando o item da lista principal for clicado, os itens da
 respectiva sub lista aparecem com o efeito de deslizar (slide).
 
-4. Crie um formulário com três campos de texto, são eles: 1) nome (não pode conter espaços em branco,
-deve ter no mínimo 5 caracteres e no máximo 40); 2) endereço (não pode ser em branco, deve ter no
-mínimo duas palavras). Além disso, crie um botão "Enviar". Quando este botão for clicado, o formulário
-deverá ser validado utilizando JQuery (não utilize recursos do HTML5 neste exercício). As mensagens de
-erro devem aparecer em um elemento do tipo parágrafo logo acima do formulário. Se preferir, você pode
-personalizar ainda mais e colocar as mensagens logo abaixo dos respectivos campos que as originaram.
+4. Crie um formulário com três campos de texto, são eles:
+   1) nome (não pode conter espaços em branco, deve ter no mínimo 5 caracteres e no máximo 40);
+   2) endereço (não pode ser em branco, deve ter no mínimo duas palavras).
+
+Além disso, crie um botão "Enviar". Quando este botão for clicado, o formulário deverá ser validado 
+utilizando JQuery (não utilize recursos do HTML5 neste exercício). As mensagens de erro devem aparecer 
+em um elemento do tipo parágrafo logo acima do formulário. Se preferir, você pode personalizar ainda 
+mais e colocar as mensagens logo abaixo dos respectivos campos que as originaram.
 
 5. Crie uma galeria de imagens com botões de próximo e anterior. Para isso, você deverá baixar 5 imagens
 da internet de sua preferência e colocá-las em uma pasta dentro de seu projeto. Quando o botão anterior
