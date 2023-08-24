@@ -1,135 +1,173 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./scripts/lib/jquery-3.7.0.min.js"></script>
-    <link rel="stylesheet" href="/css/style.css" />
-    <title>Document</title>
-  </head>
 
-  <body>
-    <header id="cabecalho">
-      <img src="/img/header/iftm-logo.png" alt="" id="logo" />
-      <div id="info-cabecalho">
-        <h1>Curso de Análise e Desenvolvimento de Sistemas</h1>
-        <h2>Tecnologias para Interfaces para Aplicações WEB</h2>
-        <p>Aluno: Ramon Dias Monteiro Silva</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="./scripts/lib/jquery-3.7.0.min.js"></script>
+  <link rel="stylesheet" href="/css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header id="cabecalho">
+    <img src="/img/header/iftm-logo.png" alt="" id="logo" />
+    <div id="info-cabecalho">
+      <h1>Curso de Análise e Desenvolvimento de Sistemas</h1>
+      <h2>Tecnologias para Interfaces para Aplicações WEB</h2>
+      <p>Aluno: Ramon Dias Monteiro Silva</p>
+    </div>
+  </header>
+  <main>
+    <nav></nav>
+    <!-- -------------------------------------------------------------- -->
+    <section id="exercicio1" class="box-exercicios">
+      <header class="exercicios-cabecalhos">
+        <h1>Exercício 1</h1>
+        <p>
+          Crie um elemento do tipo parágrafo e um botão. Quando tal botão for
+          clicado, o texto do parágrafo deve ser modificado para "Estou
+          estudando JQuery!"
+        </p>
+      </header>
+      <div class="resposta1">
+        <button type="button" id="botao-ex1">Botão</button>
+        <p id="p-ex1"></p>
       </div>
-    </header>
-    <main>
-      <nav></nav>
-      <!-- -------------------------------------------------------------- -->
-      <section id="exercicio1" class="box-exercicios">
-        <header class="exercicios-cabecalhos">
-          <h1>Exercício 1</h1>
-          <p>
-            Crie um elemento do tipo parágrafo e um botão. Quando tal botão for
-            clicado, o texto do parágrafo deve ser modificado para "Estou
-            estudando JQuery!"
-          </p>
-        </header>
-        <div class="resposta1">
-          <button type="button" id="botao-ex1">Botão</button>
-          <p id="p-ex1"></p>
-        </div>
-      </section>
-      <!-- -------------------------------------------------------------- -->
-      <section id="exercicio2" class="box-exercicios">
-        <header class="exercicios-cabecalhos">
-          <h1>Exercício 2</h1>
-          <p>
-            Crie um elemento de parágrafo que contenha seu nome completo.
-            Adicione um estilo de cor de fonte e plano de fundo a ele. Além
-            disso, adicione um botão. Quando o botão é clicado deve haver a
-            alternância da visibilidade deste parágrafo, isto é, se estava
-            visível fica invisível e vice-versa.
-          </p>
-        </header>
-        <div class="resposta2">
-          <p id="nome-ex2">Ramon Dias Monteiro Silva</p>
-          <button type="button" id="botao-ex2">Botão</button>
-        </div>
-      </section>
-      <!-- -------------------------------------------------------------- -->
-      <section id="exercicio3" class="box-exercicios">
-        <header class="exercicios-cabecalhos">
-          <h1>Exercício 3</h1>
-          <p>
-            Crie um menu com efeito de acordeon. Para isso, você irá usar a
-            ideia de lista e sub lista. A lista principal apresentará os
-            principais itens do menu. Um item da lista pode ter uma sub lista
-            que irá conter as opções mais específicas. Você deverá programar
-            para que quando o item da lista principal for clicado, os itens da
-            respectiva sub lista aparecem com o efeito de deslizar (slide).
-          </p>
-        </header>
-        <div class="resposta3">
-          <ul>
-            <li class="acordeon">
-              <div class="acordeon-cabecalho">Primeiro</div>
-              <ul class="acordeon-itens">
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-              </ul>
-            </li>
+    </section>
+    <!-- -------------------------------------------------------------- -->
+    <section id="exercicio2" class="box-exercicios">
+      <header class="exercicios-cabecalhos">
+        <h1>Exercício 2</h1>
+        <p>
+          Crie um elemento de parágrafo que contenha seu nome completo.
+          Adicione um estilo de cor de fonte e plano de fundo a ele. Além
+          disso, adicione um botão. Quando o botão é clicado deve haver a
+          alternância da visibilidade deste parágrafo, isto é, se estava
+          visível fica invisível e vice-versa.
+        </p>
+      </header>
+      <div class="resposta2">
+        <p id="nome-ex2">Ramon Dias Monteiro Silva</p>
+        <button type="button" id="botao-ex2">Botão</button>
+      </div>
+    </section>
+    <!-- -------------------------------------------------------------- -->
+    <section id="exercicio3" class="box-exercicios">
+      <header class="exercicios-cabecalhos">
+        <h1>Exercício 3</h1>
+        <p>
+          Crie um menu com efeito de acordeon. Para isso, você irá usar a
+          ideia de lista e sub lista. A lista principal apresentará os
+          principais itens do menu. Um item da lista pode ter uma sub lista
+          que irá conter as opções mais específicas. Você deverá programar
+          para que quando o item da lista principal for clicado, os itens da
+          respectiva sub lista aparecem com o efeito de deslizar (slide).
+        </p>
+      </header>
+      <div class="resposta3">
+        <ul>
+          <li class="acordeon">
+            <div class="acordeon-cabecalho">Primeiro</div>
+            <ul class="acordeon-itens">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+            </ul>
+          </li>
 
-            <li class="acordeon">
-              <div class="acordeon-cabecalho">Segundo</div>
-              <ul class="acordeon-itens">
-                <li>4</li>
-                <li>5</li>
-                <li>6</li>
-              </ul>
-            </li>
+          <li class="acordeon">
+            <div class="acordeon-cabecalho">Segundo</div>
+            <ul class="acordeon-itens">
+              <li>4</li>
+              <li>5</li>
+              <li>6</li>
+            </ul>
+          </li>
 
-            <li class="acordeon">
-              <div class="acordeon-cabecalho">Terceiro</div>
-              <ul class="acordeon-itens">
-                <li>7</li>
-                <li>8</li>
-                <li>9</li>
-              </ul>
-            </li>
-          </ul>
+          <li class="acordeon">
+            <div class="acordeon-cabecalho">Terceiro</div>
+            <ul class="acordeon-itens">
+              <li>7</li>
+              <li>8</li>
+              <li>9</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- -------------------------------------------------------------- -->
+    <section id="exercicio4" class="box-exercicios">
+      <header class="exercicios-cabecalhos">
+        <h1>Exercício 4</h1>
+        <p>
+          Crie um formulário com três campos de texto, são eles: <br />
+          1) nome (não pode conter espaços em branco, deve ter no mínimo 5
+          caracteres e no máximo 40); <br />
+          2) endereço (não pode ser em branco, deve ter no mínimo duas
+          palavras). <br />Além disso, crie um botão "Enviar". Quando este
+          botão for clicado, o formulário deverá ser validado utilizando
+          JQuery (não utilize recursos do HTML5 neste exercício). As mensagens
+          de erro devem aparecer em um elemento do tipo parágrafo logo acima
+          do formulário. Se preferir, você pode personalizar ainda mais e
+          colocar as mensagens logo abaixo dos respectivos campos que as
+          originaram.
+        </p>
+      </header>
+      <div class="resposta4">
+        <form class="formulario">
+          <p class="titulo">Formulário </p>
+          <div class="flex w-full">
+            <div class="flex w-full">
+              <label>
+                Nome
+              </label>
+              <input placeholder="" type="text" class="input" id="inputName">
+              <p class="erroNome"></p>
+            </div>
+
+            <div class="flex w-full">
+              <label>
+                Endereço
+              </label>
+              <input type="text" class="input" id="inputEndereco">
+              <p class="erroEndereco"></p>
+            </div>
+          </div>
+          <button class="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <!-- -------------------------------------------------------------- -->
+    <section id="exercicio5" class="box-exercicios">
+      <header class="exercicios-cabecalhos">
+        <h1>Exercício 5</h1>
+        <p>
+          Crie uma galeria de imagens com botões de próximo e anterior. Para
+          isso, você deverá baixar 5 imagens da internet de sua preferência e
+          colocá-las em uma pasta dentro de seu projeto. Quando o botão
+          anterior for clicado, apresente a imagem anterior e, de forma
+          semelhante, quando o botão próximo for clicado, apresente a imagem
+          posterior a atual. Utilize o efeito de fade em sua galeria.
+        </p>
+      </header>
+      <div class="resposta5">
+        <div class="slide">
+          <img src="./img/ex5/img1.jpg" alt="" id="img1" class="img">
+          <img src="./img/ex5/img2.jpg" alt="" id="img2" class="img">
+          <img src="./img/ex5/img3.jpg" alt="" id="img3" class="img">
+          <img src="./img/ex5/img4.jpg" alt="" id="img4" class="img">
+          <img src="./img/ex5/img5.jpg" alt="" id="img5" class="img">
         </div>
-      </section>
-      <!-- -------------------------------------------------------------- -->
-      <section id="exercicio4" class="box-exercicios">
-        <header class="exercicios-cabecalhos">
-          <h1>Exercício 4</h1>
-          <p>
-            Crie um formulário com três campos de texto, são eles: <br />
-            1) nome (não pode conter espaços em branco, deve ter no mínimo 5
-            caracteres e no máximo 40); <br />
-            2) endereço (não pode ser em branco, deve ter no mínimo duas
-            palavras). <br />Além disso, crie um botão "Enviar". Quando este
-            botão for clicado, o formulário deverá ser validado utilizando
-            JQuery (não utilize recursos do HTML5 neste exercício). As mensagens
-            de erro devem aparecer em um elemento do tipo parágrafo logo acima
-            do formulário. Se preferir, você pode personalizar ainda mais e
-            colocar as mensagens logo abaixo dos respectivos campos que as
-            originaram.
-          </p>
-        </header>
-      </section>
-      <!-- -------------------------------------------------------------- -->
-      <section id="exercicio5" class="box-exercicios">
-        <header class="exercicios-cabecalhos">
-          <h1>Exercício 5</h1>
-          <p>
-            Crie uma galeria de imagens com botões de próximo e anterior. Para
-            isso, você deverá baixar 5 imagens da internet de sua preferência e
-            colocá-las em uma pasta dentro de seu projeto. Quando o botão
-            anterior for clicado, apresente a imagem anterior e, de forma
-            semelhante, quando o botão próximo for clicado, apresente a imagem
-            posterior a atual. Utilize o efeito de fade em sua galeria.
-          </p>
-        </header>
-      </section>
-      <!-- -------------------------------------------------------------- -->
-    </main>
-    <script src="./scripts/global.js"></script>
-  </body>
+        <div class="buttons">
+          <button id="ant">&#8592;</button>
+          <button id="prox">&#8594;</button>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------------------------------------------- -->
+  </main>
+  <script src="./scripts/global.js"></script>
+</body>
+
 </html>
