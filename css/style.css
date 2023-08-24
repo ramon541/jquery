@@ -196,14 +196,7 @@ button:active {
 
 .img {
   width: 300px;
-  border: 15px;
-}
-
-.slide {
-  /* display: flex;
-  width: 300px;
-  height: 169px;
-  overflow: hidden; */
+  border-radius: 15px;
 }
 
 .buttons {
