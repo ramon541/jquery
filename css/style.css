@@ -19,13 +19,13 @@ body {
   justify-content: center;
   align-items: center;
 
-  height: 10vh;
+  height: 20vh;
   background-color: rgb(240, 240, 240);
   gap: 30px;
 }
 
 #logo {
-  width: 30vh;
+  width: 40vh;
 }
 
 #info-cabecalho {
@@ -35,7 +35,7 @@ body {
   align-items: center;
   gap: 3px;
 
-  font-size: 1vh;
+  font-size: 12px;
 }
 
 main {
@@ -46,12 +46,24 @@ main {
   gap: 10vh;
 }
 
+nav {
+  display: flex;
+  gap: 30px;
+
+  background: rgb(240, 240, 240);
+  font-size: 30px;
+  padding: 3vh;
+  margin-top: 10vh;
+  border-radius: 15px;
+}
+
 section {
   background: rgb(240, 240, 240);
   width: 80%;
 
-  padding: 2vh;
+  padding: 3vh;
   border-radius: 5px;
+  margin-bottom: 10vh;
 }
 
 .box-exercicios {
